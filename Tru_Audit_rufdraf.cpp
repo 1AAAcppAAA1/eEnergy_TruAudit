@@ -23,7 +23,7 @@ float cost;
 float therms;
 float kWhr;
 float propanegallons;
-float kWhTotal;
+float kWhrTotal;
 float percentage;
 
 
@@ -35,12 +35,12 @@ float percentage;
 		printf("------------------------------------\n\n");
 
 
-		// Electricity bill in dollars to kWh equivalent
+		// Electricity bill in dollars to kWhr equivalent
 
 			printf ("Enter average annual electricity bill (dollars): ");
 			scanf("%f", &dollars);
 			cost = dollars/0.1369;
-			printf ("kWh Equivalent is %.2f\n\n", cost);
+			printf ("kWhr Equivalent is %.2f\n\n", cost);
 
 		// Heating cost in dollars to natgas equivalent in thurms
 
