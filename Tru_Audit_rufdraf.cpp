@@ -1,7 +1,7 @@
 //converting an EU to US skel for field use changing oil to natgas and elim some unnes factors like vac cleaner and cooking and adding
-data pull from energy companys, and year home build from county data stats for a quantatative init entry of guestamated R-values
-and square footage
-//
+//data pull from energy companys, & year home build from county data stats 2 quantatative init entry > guestamated R-values
+//& square footage
+
 
 
 
@@ -20,8 +20,8 @@ void main()
 
 float dollars;
 float cost;
-float thurms;
-float kWh;
+float therms;
+float kWhr;
 float propanegallons;
 float kWhTotal;
 float percentage;
@@ -47,13 +47,13 @@ float percentage;
 			printf("Enter average annual heating cost (dollars): ");
 			scanf("%f", &dollars);
 			therms = dollars/0.39;
-			printf ("thurm equivalent is %.2f\n\n", thurms);
+			printf ("thurm equivalent is %.2f\n\n", therms);
 
 		// Kerosene in litres to kWhr equivalent
 
 			printf("Enter average annual thurms of natgas (thurmsunits): ");
-			scanf("%f", &thurmsunits);
-			kWhr = thurmunits * 10.18;
+			scanf("%f", &thurms units);
+			kWhr = therms units * 10.18;
 			printf ("kWhr Equivalent is %.2f\n\n", kWhr); 
 
 		// 1 litre of kerosene = 10.18 kWhr - got value from Google search - www.graineco.com
